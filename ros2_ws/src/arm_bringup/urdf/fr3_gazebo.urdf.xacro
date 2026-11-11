@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fr3">
+  <xacro:include filename="$(find franka_description)/robots/common/franka_robot.xacro"/>
+  <xacro:arg name="arm_id" default="fr3"/>
+  <xacro:arg name="hand" default="true"/>
+  <xacro:arg name="ee_id" default="franka_hand"/>
+  <xacro:arg name="with_sc" default="false"/>
+  <xacro:arg name="ros2_control" default="false"/>
+  <xacro:arg name="robot_ip" default=""/>
+  <xacro:arg name="use_fake_hardware" default="false"/>
+  <xacro:arg name="fake_sensor_commands" default="false"/>
+  <xacro:arg name="gazebo" default="true"/>
+  <xacro:arg name="gazebo_effort" default="false"/>
+  <xacro:franka_robot arm_id="fr3"
+      joint_limits="${xacro.load_yaml('$(find franka_description)/robots/fr3/joint_limits.yaml')}"
+      inertials="${xacro.load_yaml('$(find franka_description)/robots/fr3/inertials.yaml')}"
+      kinematics="${xacro.load_yaml('$(find franka_description)/robots/fr3/kinematics.yaml')}"
+      dynamics="${xacro.load_yaml('$(find franka_description)/robots/fr3/dynamics.yaml')}"
+      gazebo="true" hand="true" ee_id="franka_hand" with_sc="false"
+      ros2_control="false" robot_ip="" use_fake_hardware="false"
+      fake_sensor_commands="false" gazebo_effort="false"/>
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <joint name="fr3_joint1">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint2">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">-0.785</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint3">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint4">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">-2.356</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint5">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint6">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">1.571</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint7">
+      <command_interface name="position"/>
+      <state_interface name="position"><param name="initial_value">0.785</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find arm_bringup)/config/controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+</robot>
