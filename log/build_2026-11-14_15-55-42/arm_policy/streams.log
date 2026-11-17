@@ -1,0 +1,33 @@
+[0.956s] Invoking command in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arm_policy build --build-base /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build install --record /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/install.log --install-scripts $base/lib/arm_policy --single-version-externally-managed install_data
+[1.223s] running egg_info
+[1.236s] creating ../../../build/arm_policy/arm_policy.egg-info
+[1.236s] writing ../../../build/arm_policy/arm_policy.egg-info/PKG-INFO
+[1.237s] writing dependency_links to ../../../build/arm_policy/arm_policy.egg-info/dependency_links.txt
+[1.237s] writing entry points to ../../../build/arm_policy/arm_policy.egg-info/entry_points.txt
+[1.237s] writing requirements to ../../../build/arm_policy/arm_policy.egg-info/requires.txt
+[1.237s] writing top-level names to ../../../build/arm_policy/arm_policy.egg-info/top_level.txt
+[1.237s] writing manifest file '../../../build/arm_policy/arm_policy.egg-info/SOURCES.txt'
+[1.277s] reading manifest file '../../../build/arm_policy/arm_policy.egg-info/SOURCES.txt'
+[1.278s] writing manifest file '../../../build/arm_policy/arm_policy.egg-info/SOURCES.txt'
+[1.278s] running build
+[1.278s] running build_py
+[1.278s] creating /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy
+[1.278s] copying arm_policy/__init__.py -> /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy
+[1.279s] copying arm_policy/reach_policy.py -> /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy
+[1.279s] running install
+[1.283s] running install_lib
+[1.296s] creating /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy
+[1.296s] copying /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy/__init__.py -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy
+[1.296s] copying /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy/reach_policy.py -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy
+[1.297s] byte-compiling /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy/__init__.py to __init__.cpython-312.pyc
+[1.297s] byte-compiling /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy/reach_policy.py to reach_policy.cpython-312.pyc
+[1.298s] running install_data
+[1.298s] creating /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/ament_index/resource_index/packages
+[1.298s] copying resource/arm_policy -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/ament_index/resource_index/packages
+[1.298s] copying package.xml -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy
+[1.298s] running install_egg_info
+[1.312s] Copying ../../../build/arm_policy/arm_policy.egg-info to /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy-0.0.0-py3.12.egg-info
+[1.313s] running install_scripts
+[1.373s] Installing reach_policy script to /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/arm_policy
+[1.373s] writing list of installed files to '/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/install.log'
+[1.407s] Invoked command in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arm_policy build --build-base /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build install --record /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/install.log --install-scripts $base/lib/arm_policy --single-version-externally-managed install_data

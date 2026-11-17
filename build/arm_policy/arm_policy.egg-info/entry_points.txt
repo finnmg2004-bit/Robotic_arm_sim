@@ -1,0 +1,2 @@
+[console_scripts]
+reach_policy = arm_policy.reach_policy:main

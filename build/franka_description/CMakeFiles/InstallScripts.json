@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/finn-gorman/Projects/RoboArmSim/build/franka_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

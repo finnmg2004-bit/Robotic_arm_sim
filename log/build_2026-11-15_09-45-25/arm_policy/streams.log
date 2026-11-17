@@ -1,0 +1,19 @@
+[1.206s] Invoking command in '/home/finn-gorman/Projects/RoboArmSim/build/arm_policy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build --no-deps symlink_data --force
+[1.485s] running develop
+[1.581s] running egg_info
+[1.593s] writing arm_policy.egg-info/PKG-INFO
+[1.593s] writing dependency_links to arm_policy.egg-info/dependency_links.txt
+[1.593s] writing entry points to arm_policy.egg-info/entry_points.txt
+[1.593s] writing requirements to arm_policy.egg-info/requires.txt
+[1.593s] writing top-level names to arm_policy.egg-info/top_level.txt
+[1.629s] reading manifest file 'arm_policy.egg-info/SOURCES.txt'
+[1.629s] writing manifest file 'arm_policy.egg-info/SOURCES.txt'
+[1.629s] running build_ext
+[1.630s] Creating /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm-policy.egg-link (link to .)
+[1.630s] Installing reach_policy script to /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/arm_policy
+[1.630s] 
+[1.630s] Installed /home/finn-gorman/Projects/RoboArmSim/build/arm_policy
+[1.630s] running symlink_data
+[1.630s] symbolically linking /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/resource/arm_policy -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/ament_index/resource_index/packages
+[1.630s] symbolically linking /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/package.xml -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy
+[1.674s] Invoked command in '/home/finn-gorman/Projects/RoboArmSim/build/arm_policy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build --no-deps symlink_data --force

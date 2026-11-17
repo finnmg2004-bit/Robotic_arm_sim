@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing arm_policy.egg-info/PKG-INFO
+writing dependency_links to arm_policy.egg-info/dependency_links.txt
+writing entry points to arm_policy.egg-info/entry_points.txt
+writing requirements to arm_policy.egg-info/requires.txt
+writing top-level names to arm_policy.egg-info/top_level.txt
+reading manifest file 'arm_policy.egg-info/SOURCES.txt'
+writing manifest file 'arm_policy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm-policy.egg-link (link to .)
+Installing reach_policy script to /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/arm_policy
+
+Installed /home/finn-gorman/Projects/RoboArmSim/build/arm_policy
+running symlink_data

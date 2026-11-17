@@ -1,0 +1,180 @@
+[0.466s] Invoking command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake /home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/finn-gorman/Projects/RoboArmSim/install/franka_description
+[0.526s] [33mCMake Warning (deprecated) at CMakeLists.txt:15 (cmake_minimum_required):
+[0.526s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.526s]   CMake.
+[0.526s] 
+[0.526s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.526s]   to tell CMake that the project requires at least <min> but has been updated
+[0.526s]   to work with policies introduced by <max> or earlier.
+[0.526s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.526s] to suppress it.
+[0.526s] [0m
+[0.684s] -- The C compiler identification is GNU 15.3.0
+[0.848s] -- The CXX compiler identification is GNU 15.3.0
+[0.860s] -- Detecting C compiler ABI info
+[0.925s] -- Detecting C compiler ABI info - done
+[0.946s] -- Check for working C compiler: /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cc - skipped
+[0.947s] -- Detecting C compile features
+[0.947s] -- Detecting C compile features - done
+[0.962s] -- Detecting CXX compiler ABI info
+[1.040s] -- Detecting CXX compiler ABI info - done
+[1.064s] -- Check for working CXX compiler: /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/c++ - skipped
+[1.064s] -- Detecting CXX compile features
+[1.064s] -- Detecting CXX compile features - done
+[1.085s] -- Found ament_cmake: 2.5.6 (/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/share/ament_cmake/cmake)
+[1.202s] -- Found Python3: /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3 (found version "3.12.15") found components: Interpreter
+[1.320s] -- Found ament_lint_auto: 0.17.5 (/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/share/ament_lint_auto/cmake)
+[1.554s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.564s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.564s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.565s] -- Added test 'lint_cmake' to check CMake code style
+[1.566s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.569s] -- Added test 'xmllint' to check XML markup files
+[1.570s] -- Configuring done (1.0s)
+[1.573s] -- Generating done (0.0s)
+[1.574s] -- Build files have been written to: /home/finn-gorman/Projects/RoboArmSim/build/franka_description
+[1.578s] Invoked command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake /home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/finn-gorman/Projects/RoboArmSim/install/franka_description
+[1.578s] Invoking command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --build /home/finn-gorman/Projects/RoboArmSim/build/franka_description -- -j8 -l8
+[1.600s] Invoked command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --build /home/finn-gorman/Projects/RoboArmSim/build/franka_description -- -j8 -l8
+[1.609s] Invoking command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --install /home/finn-gorman/Projects/RoboArmSim/build/franka_description
+[1.615s] -- Install configuration: ""
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//launch
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fp3
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[1.615s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[1.616s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[1.616s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/common
+[1.616s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/common/utils.xacro
+[1.616s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[1.616s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[1.616s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fr3
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fer
+[1.617s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/franka_hand
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[1.618s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/cobot_pump
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/common
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[1.619s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes
+[1.620s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee
+[1.620s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump
+[1.620s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision
+[1.620s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[1.626s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual
+[1.626s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[1.639s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black
+[1.639s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision
+[1.639s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[1.639s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual
+[1.639s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[1.640s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[1.641s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white
+[1.641s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision
+[1.641s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[1.641s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual
+[1.641s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[1.642s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[1.643s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[1.644s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[1.644s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[1.644s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[1.644s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[1.644s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual
+[1.644s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[1.649s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[1.656s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[1.663s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[1.665s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[1.668s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[1.673s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[1.675s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[1.679s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[1.680s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[1.680s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[1.680s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[1.680s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual
+[1.680s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[1.684s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[1.691s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[1.699s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[1.700s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[1.704s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[1.710s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[1.711s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[1.714s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer
+[1.714s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision
+[1.714s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[1.714s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[1.714s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[1.714s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual
+[1.715s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[1.716s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[1.718s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[1.721s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[1.723s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[1.724s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[1.726s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[1.728s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[1.729s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[1.731s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//rviz
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//urdfs
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//urdfs/fr3.urdf
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description//urdfs/fr3_franka_hand.urdf
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[1.733s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/environment/path.sh
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/environment/path.dsv
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/local_setup.bash
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/local_setup.sh
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/local_setup.zsh
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/local_setup.dsv
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.dsv
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[1.734s] -- Installing: /home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.xml
+[1.736s] Invoked command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --install /home/finn-gorman/Projects/RoboArmSim/build/franka_description

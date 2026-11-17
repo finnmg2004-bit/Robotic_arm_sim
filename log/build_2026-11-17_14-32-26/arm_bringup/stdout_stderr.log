@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing arm_bringup.egg-info/PKG-INFO
+writing dependency_links to arm_bringup.egg-info/dependency_links.txt
+writing requirements to arm_bringup.egg-info/requires.txt
+writing top-level names to arm_bringup.egg-info/top_level.txt
+reading manifest file 'arm_bringup.egg-info/SOURCES.txt'
+writing manifest file 'arm_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages/arm-bringup.egg-link (link to .)
+
+Installed /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup
+running symlink_data

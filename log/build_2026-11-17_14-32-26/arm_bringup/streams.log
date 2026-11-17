@@ -1,0 +1,15 @@
+[1.208s] Invoking command in '/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/build --no-deps symlink_data
+[1.475s] running develop
+[1.585s] running egg_info
+[1.597s] writing arm_bringup.egg-info/PKG-INFO
+[1.598s] writing dependency_links to arm_bringup.egg-info/dependency_links.txt
+[1.598s] writing requirements to arm_bringup.egg-info/requires.txt
+[1.598s] writing top-level names to arm_bringup.egg-info/top_level.txt
+[1.635s] reading manifest file 'arm_bringup.egg-info/SOURCES.txt'
+[1.636s] writing manifest file 'arm_bringup.egg-info/SOURCES.txt'
+[1.636s] running build_ext
+[1.636s] Creating /home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages/arm-bringup.egg-link (link to .)
+[1.636s] 
+[1.637s] Installed /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup
+[1.637s] running symlink_data
+[1.680s] Invoked command in '/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/build --no-deps symlink_data

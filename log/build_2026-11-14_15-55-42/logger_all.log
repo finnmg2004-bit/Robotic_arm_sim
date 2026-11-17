@@ -1,0 +1,314 @@
+[0.310s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/colcon', 'build'][0m
+[0.310s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7115785663f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7115787ebe90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7115787ebe90>>)[0m
+[0.345s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/finn-gorman/Projects/RoboArmSim'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'ignore'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'ignore_ament_install'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extensions ['colcon_pkg']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'colcon_pkg'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extensions ['colcon_meta']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'colcon_meta'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extensions ['ros']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'ros'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extensions ['cmake', 'python']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'cmake'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'python'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extensions ['python_setup_py']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl) by extension 'python_setup_py'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'ignore'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'ignore_ament_install'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extensions ['colcon_pkg']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'colcon_pkg'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extensions ['colcon_meta']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'colcon_meta'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extensions ['ros']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'ros'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extensions ['cmake', 'python']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'cmake'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'python'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extensions ['python_setup_py']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/__pycache__) by extension 'python_setup_py'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'ignore'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'ignore_ament_install'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extensions ['colcon_pkg']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'colcon_pkg'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extensions ['colcon_meta']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'colcon_meta'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extensions ['ros']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'ros'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extensions ['cmake', 'python']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'cmake'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'python'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extensions ['python_setup_py']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints) by extension 'python_setup_py'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'ignore'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'ignore_ament_install'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extensions ['colcon_pkg']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'colcon_pkg'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extensions ['colcon_meta']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'colcon_meta'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extensions ['ros']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'ros'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extensions ['cmake', 'python']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'cmake'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'python'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extensions ['python_setup_py']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rl/checkpoints_push) by extension 'python_setup_py'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'ignore'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'ignore_ament_install'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extensions ['colcon_pkg']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'colcon_pkg'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extensions ['colcon_meta']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'colcon_meta'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extensions ['ros']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'ros'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extensions ['cmake', 'python']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'cmake'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'python'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extensions ['python_setup_py']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws) by extension 'python_setup_py'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/build) by extension 'ignore'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/build) ignored
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/install) by extension 'ignore'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/install) ignored
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/log) by extension 'ignore'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/log) ignored
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'ignore'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'colcon_meta'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extensions ['ros']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'ros'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'cmake'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'python'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src) by extension 'python_setup_py'
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extension 'ignore'
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extension 'ignore_ament_install'
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extensions ['colcon_pkg']
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extension 'colcon_pkg'
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extensions ['colcon_meta']
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extension 'colcon_meta'
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extensions ['ros']
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_bringup) by extension 'ros'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ros2_ws/src/arm_bringup' with type 'ros.ament_python' and name 'arm_bringup'[0m
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extension 'ignore'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extension 'ignore_ament_install'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extensions ['colcon_pkg']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extension 'colcon_pkg'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extensions ['colcon_meta']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extension 'colcon_meta'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extensions ['ros']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/arm_policy) by extension 'ros'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ros2_ws/src/arm_policy' with type 'ros.ament_python' and name 'arm_policy'[0m
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extension 'ignore'
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extension 'ignore_ament_install'
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extensions ['colcon_pkg']
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extension 'colcon_pkg'
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extensions ['colcon_meta']
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extension 'colcon_meta'
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extensions ['ros']
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ros2_ws/src/franka_description) by extension 'ros'
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ros2_ws/src/franka_description' with type 'ros.ament_cmake' and name 'franka_description'[0m
+[0.387s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.387s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.387s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.387s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.387s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.400s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup', 'merge_install': False, 'path': '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'cmake_target' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_policy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arm_policy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/finn-gorman/Projects/RoboArmSim/build/arm_policy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy', 'merge_install': False, 'path': '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy', 'symlink_install': False, 'test_result_base': None}[0m
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/finn-gorman/Projects/RoboArmSim/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/finn-gorman/Projects/RoboArmSim/install/franka_description', 'merge_install': False, 'path': '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.401s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.402s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.402s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_bringup' with build type 'ament_python'
+[0.402s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_bringup', 'ament_prefix_path')
+[0.406s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/hook/ament_prefix_path.ps1'
+[0.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/hook/ament_prefix_path.dsv'
+[0.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/hook/ament_prefix_path.sh'
+[0.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.412s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy' with build type 'ament_python'
+[0.412s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_policy', 'ament_prefix_path')
+[0.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/hook/ament_prefix_path.ps1'
+[0.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/hook/ament_prefix_path.dsv'
+[0.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/hook/ament_prefix_path.sh'
+[0.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.415s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description' with build type 'ament_cmake'
+[0.415s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description'
+[0.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.659s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_bringup'
+[0.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.877s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy'
+[0.877s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.877s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.881s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake /home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/finn-gorman/Projects/RoboArmSim/install/franka_description[0m
+[1.358s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mAvailable setuptools commands: symlink_data, bdist_egg, setopt, clean, check, bdist_dumb, bdist_wheel, rotate, saveopts, bdist, easy_install, install_headers, build, build_cmake, install, build_py, egg_info, install_lib, build_clib, install_data, build_ext, alias, dist_info, build_scripts, install_scripts, install_egg_info, editable_wheel, sdist, develop, bdist_rpm[0m
+[1.359s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arm_bringup build --build-base /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/build install --record /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/install.log --install-scripts $base/lib/arm_bringup --single-version-externally-managed install_data[0m
+[1.366s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mAvailable setuptools commands: symlink_data, bdist_egg, setopt, clean, check, bdist_dumb, bdist_wheel, rotate, saveopts, bdist, easy_install, install_headers, build, build_cmake, install, build_py, egg_info, install_lib, build_clib, install_data, build_ext, alias, dist_info, build_scripts, install_scripts, install_egg_info, editable_wheel, sdist, develop, bdist_rpm[0m
+[1.368s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arm_policy build --build-base /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build install --record /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/install.log --install-scripts $base/lib/arm_policy --single-version-externally-managed install_data[0m
+[1.819s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_policy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arm_policy build --build-base /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build install --record /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/install.log --install-scripts $base/lib/arm_policy --single-version-externally-managed install_data[0m
+[1.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy' for CMake module files
+[1.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy' for CMake config files
+[1.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib'
+[1.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/bin'
+[1.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/pkgconfig/arm_policy.pc'
+[1.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages'
+[1.826s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_policy', 'pythonpath')
+[1.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/hook/pythonpath.ps1'
+[1.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/hook/pythonpath.dsv'
+[1.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/hook/pythonpath.sh'
+[1.829s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/bin'
+[1.829s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_policy)
+[1.830s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/package.ps1'
+[1.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/package.dsv'
+[1.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/package.sh'
+[1.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/package.bash'
+[1.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy/package.zsh'
+[1.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/colcon-core/packages/arm_policy)
+[1.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup' for CMake module files
+[1.837s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup' for CMake config files
+[1.837s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/arm_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/prefix_override:/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages:${PYTHONPATH} /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arm_bringup build --build-base /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/build install --record /home/finn-gorman/Projects/RoboArmSim/build/arm_bringup/install.log --install-scripts $base/lib/arm_bringup --single-version-externally-managed install_data[0m
+[1.838s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib'
+[1.838s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/bin'
+[1.838s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/pkgconfig/arm_bringup.pc'
+[1.838s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/lib/python3.12/site-packages'
+[1.838s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_bringup', 'pythonpath')
+[1.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/hook/pythonpath.ps1'
+[1.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/hook/pythonpath.dsv'
+[1.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/hook/pythonpath.sh'
+[1.839s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/bin'
+[1.839s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_bringup)
+[1.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/package.ps1'
+[1.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/package.dsv'
+[1.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/package.sh'
+[1.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/package.bash'
+[1.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/arm_bringup/package.zsh'
+[1.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/finn-gorman/Projects/RoboArmSim/install/arm_bringup/share/colcon-core/packages/arm_bringup)
+[1.993s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake /home/finn-gorman/Projects/RoboArmSim/ros2_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/finn-gorman/Projects/RoboArmSim/install/franka_description[0m
+[1.994s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --build /home/finn-gorman/Projects/RoboArmSim/build/franka_description -- -j8 -l8[0m
+[2.016s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --build /home/finn-gorman/Projects/RoboArmSim/build/franka_description -- -j8 -l8[0m
+[2.024s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --install /home/finn-gorman/Projects/RoboArmSim/build/franka_description[0m
+[2.151s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(franka_description)
+[2.151s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description' for CMake module files
+[2.151s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/finn-gorman/Projects/RoboArmSim/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PIXI_PROMPT=(RoboArmSim) PS1=(RoboArmSim) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/finn-gorman/Projects/RoboArmSim/.pixi/envs/default/bin/cmake --install /home/finn-gorman/Projects/RoboArmSim/build/franka_description[0m
+[2.151s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description' for CMake config files
+[2.152s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('franka_description', 'cmake_prefix_path')
+[2.152s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[2.152s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[2.153s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[2.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/bin'
+[2.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/lib/pkgconfig/franka_description.pc'
+[2.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/lib/python3.12/site-packages'
+[2.154s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/bin'
+[2.154s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.ps1'
+[2.154s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.dsv'
+[2.155s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.sh'
+[2.155s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.bash'
+[2.155s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.zsh'
+[2.155s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/colcon-core/packages/franka_description)
+[2.156s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(franka_description)
+[2.156s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description' for CMake module files
+[2.156s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description' for CMake config files
+[2.156s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('franka_description', 'cmake_prefix_path')
+[2.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[2.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[2.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[2.158s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/bin'
+[2.158s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/lib/pkgconfig/franka_description.pc'
+[2.158s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/lib/python3.12/site-packages'
+[2.158s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/bin'
+[2.158s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.ps1'
+[2.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.dsv'
+[2.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.sh'
+[2.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.bash'
+[2.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/franka_description/package.zsh'
+[2.160s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/finn-gorman/Projects/RoboArmSim/install/franka_description/share/colcon-core/packages/franka_description)
+[2.160s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.161s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.161s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.161s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.161s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.161s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/finn-gorman/Projects/RoboArmSim/install/local_setup.ps1'
+[2.162s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/finn-gorman/Projects/RoboArmSim/install/_local_setup_util_ps1.py'
+[2.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/finn-gorman/Projects/RoboArmSim/install/setup.ps1'
+[2.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/finn-gorman/Projects/RoboArmSim/install/local_setup.sh'
+[2.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/finn-gorman/Projects/RoboArmSim/install/_local_setup_util_sh.py'
+[2.166s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/finn-gorman/Projects/RoboArmSim/install/setup.sh'
+[2.166s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/finn-gorman/Projects/RoboArmSim/install/local_setup.bash'
+[2.167s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/finn-gorman/Projects/RoboArmSim/install/setup.bash'
+[2.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/finn-gorman/Projects/RoboArmSim/install/local_setup.zsh'
+[2.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/finn-gorman/Projects/RoboArmSim/install/setup.zsh'

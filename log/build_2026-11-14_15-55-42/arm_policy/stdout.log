@@ -1,0 +1,31 @@
+running egg_info
+creating ../../../build/arm_policy/arm_policy.egg-info
+writing ../../../build/arm_policy/arm_policy.egg-info/PKG-INFO
+writing dependency_links to ../../../build/arm_policy/arm_policy.egg-info/dependency_links.txt
+writing entry points to ../../../build/arm_policy/arm_policy.egg-info/entry_points.txt
+writing requirements to ../../../build/arm_policy/arm_policy.egg-info/requires.txt
+writing top-level names to ../../../build/arm_policy/arm_policy.egg-info/top_level.txt
+writing manifest file '../../../build/arm_policy/arm_policy.egg-info/SOURCES.txt'
+reading manifest file '../../../build/arm_policy/arm_policy.egg-info/SOURCES.txt'
+writing manifest file '../../../build/arm_policy/arm_policy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy
+copying arm_policy/__init__.py -> /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy
+copying arm_policy/reach_policy.py -> /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy
+running install
+running install_lib
+creating /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy
+copying /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy/__init__.py -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy
+copying /home/finn-gorman/Projects/RoboArmSim/build/arm_policy/build/lib/arm_policy/reach_policy.py -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy
+byte-compiling /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy/reach_policy.py to reach_policy.cpython-312.pyc
+running install_data
+creating /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/ament_index/resource_index/packages
+copying resource/arm_policy -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/ament_index/resource_index/packages
+copying package.xml -> /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/share/arm_policy
+running install_egg_info
+Copying ../../../build/arm_policy/arm_policy.egg-info to /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/python3.12/site-packages/arm_policy-0.0.0-py3.12.egg-info
+running install_scripts
+Installing reach_policy script to /home/finn-gorman/Projects/RoboArmSim/install/arm_policy/lib/arm_policy
+writing list of installed files to '/home/finn-gorman/Projects/RoboArmSim/build/arm_policy/install.log'
