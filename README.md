@@ -99,10 +99,5 @@ ros2 run arm_policy reach_policy --ros-args -p use_sim_time:=true
 ros2 topic pub --once /reach_target geometry_msgs/msg/Point "{x: 0.4, y: 0.2, z: 0.4}"
 ```
 
-## Next steps
-- Run the push policy in Gazebo through the same ROS 2 pipeline
-- Pick-and-place with the Franka gripper
-- Compare RL against a purely classical Jacobian controller
-
 ## Tech
 ROS 2 Jazzy · Gazebo Harmonic · ros2_control · MuJoCo · Gymnasium · Stable-Baselines3 (SAC, HER) · pixi
